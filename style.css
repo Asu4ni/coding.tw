@@ -90,30 +90,6 @@ width:100%;
 top:55px;
 box-shadow:0px 3px 5px rgba(0,0,0,0.4);
 }
-
-#filter{position:fixed;top:0px;left:5%;height:100%;width:90%;margin:0px;
-z-index:-99;background-color:rgba(250,249,248,0.9);}
-#banner{
-position:fixed;
-margin:0px;
-top:25%;
-left:0px;
-height:50%;
-width:1000%;
-z-index:-100;
-text-align:left;
-}
-#banner>img{margin-left:30px;height:100%;}
-#banner>.g1{animation:banner1 100s linear -25s infinite;}
-#banner>.g2{animation:banner2 100s linear 0s infinite;}
-@keyframes banner1{
-0%{transform:translateX(1583px);}
-100%{transform:translateX(-4749px);}
-}
-@keyframes banner2{
-0%{transform:translateX(0px);}
-100%{transform:translateX(-6332px);}
-}
 .mainSection{margin-bottom:30px;}
 .subTitle>*{margin-bottom:4px;}
 #about{margin-top:90px;}

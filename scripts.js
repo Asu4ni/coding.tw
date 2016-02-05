@@ -8,7 +8,6 @@ for(var i=easyItems.length-1;i>=0;--i)easyItems[i].children[1].style.display="no
 for(var i=normItems.length-1;i>=0;--i)normItems[i].children[1].style.display="none";
 for(var i=chalItems.length-1;i>=0;--i)chalItems[i].children[1].style.display="none";
 function cagStyle(oldMode){
-	console.log(oldMode);
 	cagBtns[oldMode].className ="";
 	cagBtns[mode].className ="nowCag";
 }
