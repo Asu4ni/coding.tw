@@ -1,5 +1,5 @@
 # coding_tw
-## CODING TW 彙集程式學習資源的網站(a website collecting coding learning info) (暫定)程式夢工廠
+CODING TW 彙集程式學習資源的網站(a website collecting coding learning info) (暫定)程式夢工廠
 
 link: http://asu4ni.github.io/coding_tw/
 
