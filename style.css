@@ -1,9 +1,9 @@
 *{box-sizing:border-box;}
 body{
-background-color:#F0F0F0;
+background-color:#F2F2F2;
 color:black;
 text-align:center;
-margin:0px;
+margin:auto;
 font-family:"noto sans cjk tc light","Microsoft JhengHei",sans-serif;
 }
 a{color:inherit;font-weight:bold;}
@@ -90,7 +90,7 @@ width:100%;
 top:55px;
 box-shadow:0px 3px 5px rgba(0,0,0,0.4);
 }
-.mainSection{margin-bottom:30px;}
+.mainSection{margin:0px auto 30px auto;}
 .subTitle>*{margin-bottom:4px;}
 #about{margin-top:90px;}
 #about>p{margin:auto;width:50%;min-width:500px;max-width:800px;}
@@ -107,7 +107,7 @@ display:inline-block;
 color:rgb(210,100,30);
 font-size:110%;
 letter-spacing:1px;
-background-color:rgba(250,250,245,0.8);
+background-color:rgba(255,255,255,0.2);
 transition:0.4s;
 padding:4px 9px;
 margin:3px 3px;
@@ -146,7 +146,7 @@ color:black;
 display:inline-block;
 vertical-align:top;
 width:100%;
-background:rgba(255,210,160,0.6);
+background:rgba(255,120,0,0.15);
 transition:background-color 0.8s,box-shadow 0.8s,transform 0.8s;
 padding:3px;
 margin:7px auto 7px auto;
@@ -154,7 +154,7 @@ box-shadow:2px 3px 5px rgba(0,0,0,0.15),0px -1px 3px rgba(0,0,0,0.1);
 border-radius:3px;
 }
 .item:hover{
-background-color:rgba(250,190,130,0.8);
+background-color:rgba(255,120,0,0.3);
 box-shadow:2px 3px 20px rgba(0,0,0,0.2),0px -2px 16px rgba(0,0,0,0.15);
 }
 .item:active{
@@ -189,8 +189,9 @@ font-size:100%;
 overflow:hidden;
 }
 #creditsTable{color:#505050;display:inline-block;}
-#creditsTable .title{color:rgb(240,100,0);text-align:right;}
-#creditsTable .names{padding-left:10px;text-align:left;}
+#creditsTable tr:first-child{font-weight:bold;}
+#creditsTable .ctitle{color:rgb(240,100,0);text-align:right;}
+#creditsTable .cnames{padding-left:10px;text-align:left;}
 #siteFooter{margin-top:40px;clear:left;}
 #decor{color:gray;margin:20px;}
 #codingImg{width:189px;height:85px;}
@@ -221,18 +222,15 @@ span.anchor{top:-20px;}
 @media only screen and (min-width :1200px){
 .item{width:48%;margin:7px;}
 #itemList{width:70%;min-width:1000px;max-width:1300px;}
-#filter{left:10%;width:80%;}
 }
 @media only screen and (min-width :2000px){
 .item{width:32.3%;margin:7px;}
 #itemList{width:70%;min-width:1700px;max-width:2000px;}
-#filter{left:10%;width:80%;}
 }
 @media only screen and (max-width :550px){
 #about>p{width:80%;min-width:250px;}
 #itemlist{ width:100%;min-width:300px;}
 #item{ width:100%;}
-#filter{left:5%;width:90%;}
 .itemInfo{ margin:auto;}
 img.thumbnail{
 float:none;

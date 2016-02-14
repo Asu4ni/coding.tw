@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" href="img/coding.ico">
 <link rel="icon" sizes="192x192" href="img/coding.png">
+
 <header id="siteHeader">
 <h1 id="siteTitle"> 程 式 夢 工 場 </h1>
 </header>
@@ -18,8 +19,11 @@
 <li><a href="#newsAnch">相關文章</a>
 <li><a href="#resourcesAnch">學習資源</a>
 <li><a href="#creditsAnch">製作團隊</a>
-</ul></nav>
+</ul>
+</nav>
+
 <noscript><p id="noJS">Sorry, your browser does not support JavaScript!</p></noscript>
+
 <span id="aboutAnch" class="anchor"></span>
 <section id="about" class="mainSection">
 <header class="subTitle"> <h2> 關於 </h2> </header>
@@ -61,17 +65,19 @@ target="_blank"> CODE WEEK回來了！ </a>
 <li class="item rsEasy"onclick="itemClick(this)"><header class="itemHeader"><a class="itemTitle"href="http://www.scratchjr.org/"target="_blank">創意塗鴉</a><span class="suitableness">- 適合5~10歲 (未中文化)</span></header><section class="itemInfo"><img class="thumbnail"src="img/scratchjr.png"alt="創意塗鴉縮圖"><section class="infoDes">這個遊戲可以讓使用者發揮自己的創意製作動畫，并通過這些對程式有些初步的了解。不過，因為這個遊戲沒有tutorial，所以需要自己慢慢去摸索。</section></section></li>
 </ul>
 </section>
+
 <span id="creditsAnch" class="anchor"></span>
-<section id="resources" class="mainSection">
+<section id="credits" class="mainSection">
 <header class="subTitle"> <h2> 製作團隊 </h2> </header>
+<p>此網站目前在 <a href="https://github.com/Asu4ni/coding_tw/"target="_blank">GitHub</a>
+上以開源方式維護，歡迎任何人加入維護行列</p>
 <table id="creditsTable">
-<tr><td class="title">學習資源彙整</td><td class="names">李宗霖 楊椀婷 陳子軒 黃小娗 楊光傑</td></tr>
-<tr><td class="title">文章整理翻譯</td><td class="names">楊光傑</td></tr>
-<tr><td class="title">網頁製作、資料統整</td><td class="names">蘇浩禎 王建棊</td></tr>
-<tr><td class="title">...</td><td class="names">...</td></tr>
+<tr><td class="ctitle">原始團隊</td><td class="cnames">2015fall交大服務學習開源小組</td></tr>
+<tr><td class="ctitle">學習資源彙整</td><td class="cnames">李宗霖 楊椀婷 陳子軒 黃小娗 楊光傑</td></tr>
+<tr><td class="ctitle">文章整理翻譯</td><td class="cnames">楊光傑</td></tr>
+<tr><td class="ctitle">網頁製作、資料統整</td><td class="cnames">蘇浩禎 王建棊</td></tr>
 </table>
 </section>
-
 <footer id="siteFooter">
 <section id="decor">
 <img id="codingImg" alt="CODING" src="img/coding.svg"  usemap="#codingmap"/>
@@ -80,12 +86,9 @@ target="_blank"> CODE WEEK回來了！ </a>
 printf("CODING\n"); &nbsp cout &lt&lt "CODING"; &nbsp print "CODING"
 </code>
 </section>
-<address id="developerInfo"> 
-run by 	<strong><a href="http://cs.nctu.edu.tw/" target="_blank"> 
-<abbr title="國立交通大學資訊工程系">NCTU CS </abbr>
-</a></strong> 
+<address id="developerInfo">run on 
+<a href="https://github.com/Asu4ni/coding_tw/"target="_blank">GitHub</a>
 </address>
-<p style="font-size:11px"> last update: 2016/01/30 16:27 </p>
 <map name="codingmap">
 <area shape="poly" coords="1,1,1,42,59,42,59,84,188,84,188,43,130,43,130,1"
 href="index.html">
